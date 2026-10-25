@@ -1,0 +1,6 @@
+std = "roblox"
+exclude = ["tools/*", "Packages/*"]
+
+[lints]
+# Unused variables are usually leftovers from the agent; keep them visible.
+unused_variable = "warn"

@@ -1,0 +1,22 @@
+# Place files (the code lives in the synced folders)
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+*.rbxl.lock
+*.rbxlx.lock
+
+# Generated
+sourcemap.json
+roblox.yml
+roblox.yml.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Upstream copy of the skills pack (installed skills live in .opencode/skills)
+.opencode/skills-src/
+
+__pycache__/
